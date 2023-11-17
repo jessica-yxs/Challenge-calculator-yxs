@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Calculator BY yxs demo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+  <body>
+    <div class="toggle">
+      <img src="./src/icons/sun.svg" alt="sun" id="sun" />
+      <img src="./src/icons/moon.svg" alt="moon" id="moon" />
+    </div>
+
+    <div class="calculator">
+      <!-- 显示区域：上历史，下当前计算 -->
+      <div id="textarea">
+        <input type="text" id="show" readonly />
+        <input type="text" id="input" readonly />
+      </div>
+
+      <span id="clear"></span>
+      <span id="divide"></span>
+      <span id="multiply"></span>
+      <span id="seven"></span>
+      <sapn id="eight"></sapn>
+      <sapn id="nine"></sapn>
+      <sapn id="minus"></sapn>
+      <span id="four"></span>
+      <sapn id="five"></sapn>
+      <span id="six"></span>
+      <span id="plus"></span>
+      <span id="one"></span>
+      <span id="two"></span>
+      <span id="three"></span>
+      <span id="delete"></span>
+      <span id="zero"></span>
+      <span id="point"></span>
+      <span id="equal"></span>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
